@@ -27,3 +27,7 @@ def take_a_number(queue,name)
   
   queue << name
 end
+
+def now_serving(name)
+  pp name
+end
