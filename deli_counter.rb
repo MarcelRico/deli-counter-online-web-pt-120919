@@ -20,7 +20,7 @@ def take_a_number(queue,name)
   if(queue.length == 0)
     phrase = "Welcome, #{name}. You are number 1 in line."
   else
-    phrase = "Welcome, #{name}. You are number #{queue.length} in line."
+    phrase = "Welcome, #{name}. You are number #{queue.length+1} in line."
   end
   
   puts phrase
